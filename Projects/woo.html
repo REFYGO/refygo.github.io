@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="URF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="../css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <title>Home/WBMPC</title>
+    </head>
+
+    <body>
+        <!-- Header Section Begin -->
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__logo">
+                            <h4>REFYGO</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li class="active"><a href="./projects.html">Projects</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./mft2023.html">MFT2023</a></li>
+                                        <li><a href="./wbmpc.html">WB-MPC</a></li>
+                                        <li><a href="./woo.html">Woo(Bipedal robot)</a></li>
+                                        <li><a href="./others.html">Others</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+        <section class="contact spad">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title">
+                            <h3>Woo(Bipedal robot)@B3</h3>
+                            <p>This was a 20 dof bipedal robot. 
+                                The robot consists of esp32, serial servos, and foot sensors.
+                                The foot sensor measured ZMP and was used for gait stabilization.
+                                The robot could also funny things like handstand, but there are no other videos.
+                                I am thinking of restomoding this robot but have not done anything...
+                            </p>
+                            <div class="row d-flex justify-content-center">
+                                <img src="../imgs/bipedal_front.jpg" controls width="300"></video>
+                                <img src="../imgs/bipedal_rear.jpg" controls width="300"></video>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <video src="../videos/walk_real.mp4" controls height="300"></video>
+                                <video src="../videos/walk_sim.mp4" controls height="300"></video>
+                            </div>
+                            </div>
+                            <p align="center">Specification</p>
+                            <table border="1" align="center">
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Model</th>
+                                  <th>Quantities</th>
+                                  <th>Description</th>
+                                </tr>
+                                <tr>
+                                  <td>Servo motor</td>
+                                  <td>VS-SV410</td>
+                                  <td>20</td>
+                                  <td>41kgf-cm@16.8V</td>
+                                </tr>
+                                <tr>
+                                  <td>Foot sensor(FSR)</td>
+                                  <td>-</td>
+                                  <td>8</td>
+                                  <td>For measuring ZMP</td>
+                                </tr>
+                                <tr>
+                                    <td>Micro controller</td>
+                                    <td>ESP-WROOM-32</td>
+                                    <td>1</td>
+                                    <td>Controlled by smartphone via bluetooth</td>
+                                  </tr>
+                              </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </body> 
+</html>
