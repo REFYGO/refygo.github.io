@@ -751,6 +751,12 @@ ol {
 	padding-bottom: 125px;
 }
 
+.categories_less_padding {
+	background: #f3f2ee;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
 .categories__text {
 	padding-top: 40px;
 	position: relative;
